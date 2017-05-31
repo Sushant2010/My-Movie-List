@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">My Movie List</string>
+    <string name="web_client_id">205804117903-nau5m6jlf5nth23674ccj0h4sigd6c38.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">848800848606904</string>
+
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <string name="tmdb_api_key" templateMergeStrategy="preserve">19c2a144e273abf0718f2eb2f9377930</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Signing In</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="sort_popularity">popularity</string>
+    <string name="sort_rating">rating</string>
+    <string name="cover_photo">Cover Photo</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="key_sort_method_pref">sort.method.pref</string>
+    <string name="key_sort_method_current">sort.method.current</string>
+    <string name="message_no_trailer">"No trailer to share for "</string>
+    <string name="Facebook"><a href="https://www.facebook.com/sushantgarg1989">Facebook</a></string>
+    <string name="title_share_action">Share trailer</string>
+    <string name="share_action_subject_prefix">"Check out this trailer for "</string>
+    <string name="transition_poster">transition_movie_poster</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="sign_up">Sign up</string>
+    <string name="no_text"> </string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="log_in">Login</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="profile_name">Sushant</string>
+    <string name="country_location">India</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_names">Display name</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_country">Country</string>
+    <string name="edit_profile_phone">Phone number</string>
+    <string name="edit_profile_hobby">Hobby</string>
+    <string name="select_date">Date</string>
+    <string name="save_edit">Save edit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_lists">ListsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to My Movie List</string>
+    <string name="slide_1_desc">Thanks to My Movie List you can collect all the movies that you watched and keep track of the ones
+                                that you would watch.
+
+                                Continue to explore briefly the main sections.</string>
+
+    <string name="slide_2_title">Movies Watched</string>
+    <string name="slide_2_desc">Here you find all the movies you have already watched!</string>
+
+    <string name="slide_3_title">Movies to Watch</string>
+    <string name="slide_3_desc">Here are the movies that you plan to watch sometime in the future!</string>
+
+    <string name="slide_4_title">Favorite Movies</string>
+    <string name="slide_4_desc">Here you can see all the movies that you have favorited!</string>
+
+
+    <string name="slide_5_title">Selected Movie</string>
+    <string name="slide_5_desc">Selecting a movie from any list, you can access to its page.
+                            Here you can get detailed information about the entire movie like rating, date of release, brief overview, etc.</string>
+
+    <string name="slide_6_title">You\'re all set!</string>
+    <string name="slide_6_desc">Get started now by adding movies to your lists. In the next section you can login and then find out all the
+                                trending,top rated, upcoming movies and movies that are currently playing in theatres near you! </string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

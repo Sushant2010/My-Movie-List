@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trending"
+            android:icon="@drawable/flame"
+            android:title="Trending" />
+        <item
+            android:id="@+id/top_rated"
+            android:icon="@drawable/top_rated"
+            android:title="Top Rated" />
+        <item
+            android:id="@+id/upcoming"
+            android:icon="@drawable/upcoming"
+            android:title="Upcoming" />
+        <item
+            android:id="@+id/in_theatres"
+            android:icon="@drawable/in_theatres"
+            android:title="In Theatres" />
+        <!--<item-->
+            <!--android:id="@+id/search_movie"-->
+            <!--android:icon="@drawable/search"-->
+            <!--android:title="Search" />-->
+    </group>
+
+    <item android:title="Your MyMovieList">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/lists"
+                android:icon="@drawable/lists"
+                android:title="Your Lists" /></group>
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_s"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="S" />-->
+
+        </menu>
+    </item>
+
+</menu>

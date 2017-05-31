@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="garg.sushant.mymovielist.About">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fff"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_250"
+            android:background="@color/fff">
+
+            <!-- Cover Image -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_200"
+                android:contentDescription="@string/cover_photo"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/cover3" />
+
+            <!-- Round Image -->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/dp_90"
+                android:layout_height="@dimen/dp_90"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_75"
+                android:src="@drawable/profile"
+                 />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sushant Garg"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/sp_22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Syracuse, USA"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="--------"
+                android:textSize="@dimen/sp_14" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:text="Description"-->
+                <!--android:textSize="@dimen/sp_14" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="50dp"
+               android:paddingRight="40dp"
+                android:text="Failure is the condiment that gives success its flavour.
+                                                                - Truman Capote"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="256"-->
+                    <!--android:textColor="@color/title_color"-->
+                    <!--android:textSize="@dimen/sp_18"-->
+                    <!--android:textStyle="bold" />-->
+
+                <ImageView
+                    android:id="@+id/fblink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:src = "@drawable/fb"
+                    android:textSize="@dimen/sp_14" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/dp_1"
+                android:layout_height="@dimen/dp_60"
+                android:background="@color/acacac" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:id="@+id/twitterlink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/twitter"
+                    android:textSize="@dimen/sp_14" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/dp_1"
+                android:layout_height="@dimen/dp_60"
+                android:background="@color/acacac" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="144"-->
+                    <!--android:textColor="@color/title_color"-->
+                    <!--android:textSize="@dimen/sp_18"-->
+                    <!--android:textStyle="bold" />-->
+
+                <ImageView
+                    android:id="@+id/instalink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/insta"
+                    android:textSize="@dimen/sp_14" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginBottom="30dp"
+            android:background="@color/DBE2E8">
+
+            <TextView
+                android:id="@+id/employer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Info"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_view_phone"
+                android:layout_width="18dp"
+                android:layout_height="15dp"
+                android:layout_below="@+id/employer_name"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_marginLeft="8dp"
+                android:src = "@drawable/phone"
+                android:contentDescription="Phone"
+                android:scaleType="centerInside"
+                />
+
+            <TextView
+                android:id="@+id/dialler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/employer_name"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_toRightOf="@+id/image_view_phone"
+                android:autoLink="phone"
+                android:text="315-278-6245"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/image_view_address"
+                android:layout_width="18dp"
+                android:layout_height="15dp"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/address"
+                android:contentDescription="238, Fellows Avenue, Syracuse"
+                android:scaleType="centerInside"
+                 />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@+id/image_view_address"
+                android:text="  238, Fellows Avenue, Syracuse"
+
+                tools:ignore="RtlHardcoded" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

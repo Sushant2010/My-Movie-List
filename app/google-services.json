@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205804117903",
+    "firebase_url": "https://mymovielist-final.firebaseio.com",
+    "project_id": "mymovielist-final",
+    "storage_bucket": "mymovielist-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205804117903:android:4c8bea8a4313a21a",
+        "android_client_info": {
+          "package_name": "garg.sushant.mymovielist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205804117903-jb25dm1ptubiv507ttc6g5jk35qna6js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "garg.sushant.mymovielist",
+            "certificate_hash": "fbb5e38d19d616f3bd64b3b0ec54a960e432736f"
+          }
+        },
+        {
+          "client_id": "205804117903-nau5m6jlf5nth23674ccj0h4sigd6c38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHepfI8_Ia5SaKru02ZyYvNsKbrOpgDaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205804117903-nau5m6jlf5nth23674ccj0h4sigd6c38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
